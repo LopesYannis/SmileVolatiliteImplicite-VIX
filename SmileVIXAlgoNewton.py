@@ -128,7 +128,7 @@ def newtonTest():
     plt.legend()
     plt.show()
 
-def travail3():
+def GraphVolImpliciteSPX():
     q=0.0217
     eps=0.001
     t=0
@@ -216,5 +216,6 @@ def travail3():
     ax.set_zlabel('Volatilité implicite')
     ax.legend()
     plt.tight_layout()
+
 
     plt.show()
